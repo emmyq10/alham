@@ -2,11 +2,11 @@
 :root {
     /* Colors - Updated as per your requirements */
     --primary-color: #EFF8ED;
-    --secondary-color: #96BB7C;
+    --secondary-color: #96bb7c;
     --bg-color: #FFFFFF;
     --text-dark: #2d3748;
     --text-gray: #667085;
-    --text-light: #a0aec0;
+    --text-semiB: #e7e7ed;
     
     
     /* Typography */
@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
     margin-bottom: 1rem;
 }
 
-h1 { font-size: 9.188; }
+h1 { font-size: 9.18rem; }
 h2 { font-size: 1.8rem; }
 h3 { font-size: 2rem; }
 h4 { font-size: 1.3rem; }
@@ -161,6 +161,7 @@ h4 { font-size: 1.3rem; }
     background: #7fa366;
 }
 
+
 /* Hero Section */
 .hero {
     background: var(--primary-color);
@@ -266,6 +267,7 @@ section {
     font-weight: 700;
 }
 
+
 /* School Dates Section */
 .dates-grid {
     display: grid;
@@ -316,6 +318,7 @@ section {
     font-weight: 400;
     font-size: 1.1rem;
 }
+
 
 /* Key Features Section */
 .features-section {
@@ -885,8 +888,9 @@ section {
 }
 
 .faq-items {
-    max-width: 800px;
+    max-width: 1250px;
     margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .faq-item {
@@ -1045,7 +1049,7 @@ section {
 
 /* Newsletter Section */
 .newsletter {
-    background: var(--primary-color);
+    background: var(--bg-color);
     color: var(--text-dark);
     padding: var(--section-padding);
     text-align: center;
@@ -1057,23 +1061,24 @@ section {
 }
 
 .newsletter p {
-    color: var(--text-gray);
+    color: var(--text-dark);
     margin-bottom: 2rem;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .newsletter-form {
     display: flex;
-    max-width: 500px;
+    max-width: 69rem;
+    height: 5rem;
     margin: 0 auto;
-    gap: 1rem;
 }
 
 .newsletter-form input {
     flex: 1;
     padding: 1rem;
-    border: 1px solid var(--border-light);
-    border-radius: var(--border-radius);
+    border: 1px solid var(--text-semiB);
+    border-radius: 5px;
     font-size: 1rem;
     background: var(--bg-color);
 }
@@ -1083,7 +1088,7 @@ section {
     background: var(--secondary-color);
     color: white;
     border: none;
-    border-radius: var(--border-radius);
+    border-radius: 5px;
     font-weight: 600;
     cursor: pointer;
     transition: var(--transition);
@@ -1092,6 +1097,7 @@ section {
 .newsletter-form button:hover {
     background: #7fa366;
 }
+
 
 /* Footer */
 footer {
