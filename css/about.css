@@ -18,6 +18,7 @@
     --container-max-width: 90rem;
     --grid-gap: 30px;
     --border-radius: 12px;
+    --button-radius: 5px;
     
     /* Transitions */
     --transition: all 0.3s ease;
@@ -136,7 +137,7 @@ h4 { font-size: 1.3rem; }
 
 .login-btn, .donate-btn {
     padding: 0.75rem 1.5rem;
-    border-radius: var(--border-radius);
+    border-radius: var(--button-radius);
     text-decoration: none;
     font-weight: 600;
     transition: var(--transition);
@@ -203,7 +204,7 @@ h4 { font-size: 1.3rem; }
 
 .hero-btn-primary, .hero-btn-secondary {
     padding: 1rem 2rem;
-    border-radius: var(--border-radius);
+    border-radius: var(--button-radius);
     text-decoration: none;
     font-weight: 700;
     transition: var(--transition);
@@ -660,7 +661,7 @@ h4 { font-size: 1.3rem; }
 /* Button Styling */
 .btn-secondary {
     padding: 1rem 2rem;
-    border-radius: var(--border-radius);
+    border-radius: var(--button-radius);
     text-decoration: none;
     font-weight: 600;
     transition: var(--transition);
@@ -780,7 +781,7 @@ h4 { font-size: 1.3rem; }
     background: var(--secondary-color);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--button-radius);
     font-weight: 600;
     cursor: pointer;
     transition: var(--transition);
