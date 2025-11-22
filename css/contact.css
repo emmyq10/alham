@@ -314,6 +314,11 @@ h4 { font-size: 1.3rem; }
     gap: 2rem;
 }
 
+.details-icon img {
+    width: 20px;
+    height: 20px;
+}
+
 .contact-address,
 .contact-phone,
 .contact-email {
@@ -328,9 +333,10 @@ h4 { font-size: 1.3rem; }
     font-weight: 500;
 }
 
+
 .contact-divider {
     height: 1px;
-    background: red;
+    background: var(--border-light);
     width: 100%;
 }
 
@@ -386,6 +392,12 @@ h4 { font-size: 1.3rem; }
     min-height: 120px;
 }
 
+.form-group ::placeholder {
+    font-size: 12px;
+    color: var(--text-gray);
+    font-weight: 400;
+}
+
 .submit-btn {
     background: var(--secondary-color);
     color: white;
@@ -396,8 +408,9 @@ h4 { font-size: 1.3rem; }
     font-weight: 600;
     cursor: pointer;
     transition: var(--transition);
-    width: 100%;
+    width: 50%;
     margin-top: 1rem;
+    float: right;
 }
 
 .submit-btn:hover {
@@ -514,7 +527,7 @@ footer {
 .footer-content {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 5.7rem;
+    gap: 5rem;
     margin-bottom: 3rem;
 }
 
@@ -564,8 +577,10 @@ footer {
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 2rem;
-    text-align: center;
+    padding-left: 8rem;
+    text-align: start;
     color: rgba(255, 255, 255, 0.6);
+    background-color: rgb(181,207,163);
 }
 
 /* Responsive Design */

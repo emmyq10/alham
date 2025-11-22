@@ -802,7 +802,7 @@ footer {
 .footer-content {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 5.7rem;
+    gap: 5rem;
     margin-bottom: 3rem;
 }
 
@@ -852,8 +852,10 @@ footer {
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 2rem;
+    padding-left: 8rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.6);
+    background-color: rgb(181,207,163);
 }
 
 /* Responsive Design */
